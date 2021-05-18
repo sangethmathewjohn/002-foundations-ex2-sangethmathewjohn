@@ -2,7 +2,7 @@
 #include <cs50.h>
 int main(void)
 {
-int type = get_int("Enter type of pattern ( 1 0r 2 ) \n");
+int type = get_int("Enter type of pattern ( 1 or 2 ) \n");
 int rows = get_int("Number of rows \n");
 int i,j;
 

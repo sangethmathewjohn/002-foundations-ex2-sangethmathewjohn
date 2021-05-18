@@ -4,7 +4,7 @@ int main(void)
 {
 int i,j;
 int type = get_int("Enter type of pattern (1 or 2) ");
-int rows = get_int("\nNumber of rows");
+int rows = get_int("\nNumber of rows\n");
 
   
 //program for type 2

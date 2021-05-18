@@ -3,8 +3,8 @@
 int main(void)
   {
   float a = get_float("side 1 ");
-  float b = get_float("side 2 ");
-  float c = get_float("side 3 ");
+  float b = get_float("\nside 2 ");
+  float c = get_float("\nside 3 ");
   float d = ((a*a)+(b*b));
   float e = (c*c);
   if(d == e)

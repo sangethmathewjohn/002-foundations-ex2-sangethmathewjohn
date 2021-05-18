@@ -10,9 +10,9 @@ int rows = get_int("\nNumber of rows\n");
 //program for type 1
 if(type == 1)
 {
-  for(i=1;i<=rows;i++)
+  for(i=rows;i>0;i--)
   {
-     for(j=1;j<=rows-(i-1);j++)
+     for(j=0;j<i;j++)
      {
         printf("#");
      }
@@ -39,5 +39,6 @@ else if(type == 2)
      printf("\n");
   }
 }
-
+else
+  print("invlaid")
 }

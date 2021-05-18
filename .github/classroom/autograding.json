@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Pythagorean tests",
+      "setup": "/bin/sh ./setup.sh",
+      "run": "/bin/sh ./test_pythagorean.sh",
+      "input": "",
+      "output": "All good",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Patterns test",
+      "setup": "/bin/sh ./setup.sh",
+      "run": "python3 ./test_pattern.py",
+      "input": "",
+      "output": "All good",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}

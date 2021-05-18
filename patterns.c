@@ -40,5 +40,5 @@ else if(type == 2)
   }
 }
 else
-  print("invlaid")
+  printf("invlaid")
 }

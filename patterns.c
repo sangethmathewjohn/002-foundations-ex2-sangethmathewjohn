@@ -3,7 +3,7 @@
 int main(void)
 {
 int type = get_int("Enter type of pattern (1 or 2) ");
-int rows = get_int("\nNumber of rows");
+int rows = get_int("\nNumber of rows ");
 printf("\n");
 int i,j;
 

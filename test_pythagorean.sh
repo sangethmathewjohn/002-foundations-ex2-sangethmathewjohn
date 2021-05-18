@@ -3,7 +3,7 @@ if (grep "scanf" *.c) then
    exit 1
 fi
 
-if (echo "73\n55\n48\n"  | ./pythagorean | grep -i "yes" >/dev/null ) then
+if (echo "73\n55\n48\n"  | ./pythagorean | grep -i "No" >/dev/null ) then
    echo "73 55 48 : Passed"
 else
     echo "73 55 48 : Failed"
@@ -32,7 +32,7 @@ else
     exit 1
 fi
 
-if (echo "24\n25\n7\n"  | ./pythagorean | grep -i "yes" >/dev/null ) then
+if (echo "24\n25\n7\n"  | ./pythagorean | grep -i "No" >/dev/null ) then
    echo "24 25 7 : Passed"
 else
     echo "24 25 7 : Failed"

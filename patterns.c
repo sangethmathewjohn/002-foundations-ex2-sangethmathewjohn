@@ -2,12 +2,11 @@
 #include <cs50.h>
 int main(void)
 {
-int type = get_int("Enter type of pattern (1 or 2) ");
-int rows = get_int("\nNumber of rows ");
-printf("\n");
 int i,j;
+int type = get_int("Enter type of pattern (1 or 2) ");
+int rows = get_int("\nNumber of rows");
 
-
+  
 //program for type 2
 if(type == 2){
   for(i=1;i<=rows;i++){

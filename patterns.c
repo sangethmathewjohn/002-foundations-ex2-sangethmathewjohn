@@ -4,7 +4,7 @@ int main(void)
 {
 int i,j;
 int type = get_int("Enter type of pattern (1 or 2) ");
-int rows = get_int("\nNumber of rows\n");
+int rows = get_int("Number of rows");
 
 
 //program for type 1
@@ -40,5 +40,5 @@ else if(type == 2)
   }
 }
 else
-  printf("invlaid")
+  printf("invlaid");
 }

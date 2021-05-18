@@ -32,14 +32,14 @@ else
     exit 1
 fi
 
-if (echo "24\n25\n7\n"  | ./pythagorean | grep -i "No" >/dev/null ) then
+if (echo "24\n25\n7\n"  | ./pythagorean | grep -i "yes" >/dev/null ) then
    echo "24 25 7 : Passed"
 else
     echo "24 25 7 : Failed"
     exit 1
 fi
 
-if (echo "7\n24\n26\n"  | ./pythagorean | grep -i "yes" >/dev/null ) then
+if (echo "7\n24\n26\n"  | ./pythagorean | grep -i "no" >/dev/null ) then
    echo "7 24 26 : Passed"
 else
     echo "7 24 26 : Failed"

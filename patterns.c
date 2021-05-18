@@ -23,17 +23,20 @@ if(type == 1)
 //program for type 2
 else if(type == 2)
 {
-  for(i=1;i<=rows;i++)
+  for(i=rows;i>0;i--)
   {
-    for(j=1;j<=rows-i;j++)
+    for(j=0;j<rows;j++)
     {
+      if(j>=i-1)
+      {
+       printf("#");
+      }
+      else
+      {
        printf(" ");
+      }
     }
-         for(j=1;j<=i;j++)
-         {
-           printf("#");
-         }
-           printf("\n");
+     printf("\n");
   }
 }
 

@@ -8,8 +8,8 @@ int main(void)
   float d = ((a*a)+(b*b));
   float e = (c*c);
   if(d == e)
-    printf("Yes");
+    printf("Yes \n");
   else 
-    printf("No");
+    printf("No \n");
   }
   
